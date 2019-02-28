@@ -5,7 +5,7 @@ It causes a crash on Ubuntu 18.4.02.<br />
 So I try to test it on other operating systems.
 
 Godot version: 3.0.6<br />
-Mono version: Mono JIT compiler version 5.12.0.301<br />
+Mono JIT compiler version: 5.12.0.301<br />
 
 ```
  Thread 1 (Thread 0x7f095db5c2c0 (LWP 4150)):
