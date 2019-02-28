@@ -2,7 +2,7 @@
 Test Background Thread Loading Demo with C# API
 
 It causes a crash on Ubuntu 18.4.02.<br />
-So I try to test it on other Operating Systems.
+So I try to test it on other operating systems.
 
 Godot version: 3.0.6<br />
 Mono version: Mono JIT compiler version 5.12.0.301<br />
