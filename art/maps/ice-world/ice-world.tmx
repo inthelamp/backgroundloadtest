@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="20" height="13" tilewidth="50" tileheight="50" nextobjectid="13">
+ <tileset firstgid="1" name="ice_world_tileset" tilewidth="50" tileheight="50" tilecount="15" columns="5">
+  <image source="ice_world_tileset.png" width="250" height="150"/>
+ </tileset>
+ <imagelayer name="Background">
+  <image source="ice_world_bg.png" width="960" height="640"/>
+ </imagelayer>
+ <layer name="Road" width="20" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AT8RGJK9ZNiD7XNI8etjEDMhgWjm4WsjgWPGUxAzIoFo5uPrI4ZjxwuTIv4oGacUBsAAH/GBsU=
+  </data>
+ </layer>
+ <objectgroup color="#ff0000" name="Surface">
+  <object id="12" x="2" y="450">
+   <polygon points="0,0 198,0 248,-50 348,-50 398,0 548,0 598,-50 698,-50 748,-100 998,-100 996,50 -2,50"/>
+  </object>
+ </objectgroup>
+</map>

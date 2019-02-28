@@ -1,0 +1,294 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Paintings.cs" type="Script" id=1]
+[ext_resource path="res://art/maps/ice-world/Ice-World.tres" type="TileSet" id=2]
+[ext_resource path="res://art/maps/ice-world/ice_world_bg.png" type="Texture" id=3]
+[ext_resource path="res://painting_parasol.jpg" type="Texture" id=4]
+[ext_resource path="res://painting_babel.jpg" type="Texture" id=5]
+[ext_resource path="res://painting_mona_lisa.jpg" type="Texture" id=6]
+[ext_resource path="res://painting_las_meninas.png" type="Texture" id=7]
+[ext_resource path="res://painting_old_guitarist.jpg" type="Texture" id=8]
+[ext_resource path="res://painting_the_swing.jpg" type="Texture" id=9]
+
+[sub_resource type="Animation" id=1]
+
+resource_name = "move_around"
+length = 4.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("painting_mona_lisa:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 117.659, 173.793 ), Vector2( 164.387, 206.955 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("painting_mona_lisa:rotation_degrees")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("painting_parasol:position")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 451.448, 256.916 ), Vector2( 483.102, 317.21 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("painting_parasol:rotation_degrees")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("painting_the_swing:position")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 715.927, 181.745 ), Vector2( 661.663, 205.863 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("painting_the_swing:rotation_degrees")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("painting_old_guitarist:position")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 886.982, 185.641 ), Vector2( 901.179, 210.693 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("painting_old_guitarist:rotation_degrees")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 15.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("painting_babel:position")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 155.796, 468.287 ), Vector2( 194.21, 444.904 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("painting_babel:rotation_degrees")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("painting_las_meninas:position")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 861.734, 494.059 ), Vector2( 840.022, 470.677 ) ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("painting_las_meninas:rotation_degrees")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+
+[node name="Paintings" type="Node2D"]
+
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="TileMap" type="TileMap" parent="." index="0"]
+
+mode = 0
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 50, 50 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 196608, 2, 0, 196609, 2, 0, 196610, 2, 0, 196611, 2, 0, 196612, 2, 0, 196613, 2, 0, 196614, 2, 0, 196615, 2, 0, 196616, 2, 0, 196617, 2, 0, 262144, 2, 0, 262145, 2, 0, 262146, 2, 0, 262147, 2, 0, 327680, 2, 0, 327681, 2, 0, 327682, 2, 0, 327683, 2, 0, 327684, 2, 0, 327685, 2, 0, 327686, 2, 0, 393216, 0, 0, 393217, 0, 0, 393218, 0, 0, 393219, 0, 0, 393220, 0, 0, 393221, 0, 0, 393222, 0, 0 )
+_sections_unfolded = [ "Cell", "Transform" ]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." index="1"]
+
+editor/display_folded = true
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 1, 1 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = true
+_sections_unfolded = [ "Scroll" ]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" index="0"]
+
+motion_scale = Vector2( 1, 1 )
+motion_offset = Vector2( 0, 0 )
+motion_mirroring = Vector2( 960, 0 )
+_sections_unfolded = [ "Material", "Motion", "Transform" ]
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer" index="0"]
+
+position = Vector2( 284.53, 323.583 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Region", "Transform" ]
+
+[node name="painting_parasol" type="Sprite" parent="." index="2"]
+
+position = Vector2( 462.839, 278.613 )
+scale = Vector2( 0.557998, 0.557998 )
+texture = ExtResource( 4 )
+
+[node name="painting_babel" type="Sprite" parent="." index="3"]
+
+position = Vector2( 169.62, 459.872 )
+scale = Vector2( 0.29005, 0.29005 )
+texture = ExtResource( 5 )
+
+[node name="painting_mona_lisa" type="Sprite" parent="." index="4"]
+
+position = Vector2( 134.475, 185.727 )
+scale = Vector2( 0.696799, 0.696799 )
+texture = ExtResource( 6 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="painting_las_meninas" type="Sprite" parent="." index="5"]
+
+position = Vector2( 853.921, 485.645 )
+scale = Vector2( 0.348146, 0.348146 )
+texture = ExtResource( 7 )
+
+[node name="painting_old_guitarist" type="Sprite" parent="." index="6"]
+
+position = Vector2( 892.091, 194.656 )
+rotation = 0.0942112
+scale = Vector2( 0.344706, 0.328421 )
+texture = ExtResource( 8 )
+
+[node name="painting_the_swing" type="Sprite" parent="." index="7"]
+
+position = Vector2( 696.4, 190.424 )
+scale = Vector2( 0.286677, 0.286677 )
+texture = ExtResource( 9 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="8"]
+
+root_node = NodePath("..")
+autoplay = "move_around"
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/move_around = SubResource( 1 )
+blend_times = [  ]
+
+[node name="switch" type="Button" parent="." index="9"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 331.0
+margin_top = 279.0
+margin_right = 477.0
+margin_bottom = 299.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Switch to Sulptures"
+flat = false
+align = 1
+
+[connection signal="pressed" from="switch" to="." method="OnSwitchPressed"]
+
+
