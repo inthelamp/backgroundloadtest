@@ -7,6 +7,7 @@ So I try to test it on other Operating Systems.
 Godot version: 3.0.6
 Mono version: Mono JIT compiler version 5.12.0.301
 
+```
  Thread 1 (Thread 0x7f095db5c2c0 (LWP 4150)):
  #0  0x00007f095ccc3bf9 in __GI___poll (fds=0x7ffeee249728, nfds=1, timeout=-1) at ../sysdep
  #1  0x00007f095b64f747 in ?? () from /usr/lib/x86_64-linux-gnu/libxcb.so.1
@@ -27,3 +28,4 @@ Mono version: Mono JIT compiler version 5.12.0.301
  a fatal error in the mono runtime or one of the native libraries
  used by your application.
  =================================================================
+```
