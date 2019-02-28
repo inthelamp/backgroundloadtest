@@ -13,6 +13,6 @@ public class Sculptures : Node2D
 		var sw = (Button) GetNode("switch");
 		sw.Hide();
 		var backgroundLoad = GetNode("/root/background_load");	
-		backgroundLoad.Call("load_scene", "res://sculptures.tscn");
+		backgroundLoad.Call("load_scene", "res://Paintings.tscn");
 	}
 }
