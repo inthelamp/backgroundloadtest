@@ -29,3 +29,10 @@ Mono JIT compiler version: 5.12.0.301<br />
  used by your application.
  =================================================================
 ```
+
+I tested it on Windows 10 and an error occurred as follows.<br />
+
+```
+Problem Event Name: APPCRASH
+Exception code: c0000005
+```
