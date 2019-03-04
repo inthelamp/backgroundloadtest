@@ -8,11 +8,11 @@ public class Paintings : Node2D
 
     }
 
-	public void OnSwitchPressed()
-	{
-		var sw = (Button) GetNode("switch");
-		sw.Hide();
-		var backgroundLoad = GetNode("/root/background_load");	
-		backgroundLoad.Call("load_scene", "res://Sculptures.tscn");
-	}	
+		public void OnSwitchPressed()
+		{
+			var sw = (Button) GetNode("switch");
+			sw.Hide();
+			var backgroundLoad = (BackgroundLoad)GetNode("/root/BackgroundLoad");	
+			backgroundLoad.GoToScene("res://Sculptures.tscn");
+		}	
 }
