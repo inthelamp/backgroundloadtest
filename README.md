@@ -1,12 +1,13 @@
 # backgroundloadtest
-Test Background Thread Loading Demo with C# API
-
-It causes a crash on Ubuntu 18.4.02.<br />
-So I try to test it on other operating systems.
-
+Test Background Thread Loading Demo with C# API<br />
+<br />
 Godot version: 3.0.6<br />
 Mono JIT compiler version: 5.12.0.301<br />
-
+<br />
+When BackgroundLoad.cs is applied, every image attached to the scene is black.<br />
+<br />
+When background_load.gd is called from C#, the following problem occurs.<br />
+For Ubuntu 18.4.02,
 ```
  Thread 1 (Thread 0x7f095db5c2c0 (LWP 4150)):
  #0  0x00007f095ccc3bf9 in __GI___poll (fds=0x7ffeee249728, nfds=1, timeout=-1) at ../sysdep
@@ -30,8 +31,7 @@ Mono JIT compiler version: 5.12.0.301<br />
  =================================================================
 ```
 
-I tested it on Windows 10 and an error occurred as follows.<br />
-
+For Windows 10, <br />
 ```
 Problem Event Name: APPCRASH
 Exception code: c0000005
