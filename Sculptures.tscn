@@ -87,7 +87,7 @@ tracks/5/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 1 ) ]
 }
 
-[node name="Sculptures" type="Node2D" index="0"]
+[node name="Sculptures" type="Node2D"]
 
 script = ExtResource( 1 )
 
@@ -96,7 +96,7 @@ script = ExtResource( 1 )
 position = Vector2( 152.971, 513.499 )
 scale = Vector2( 0.191615, 0.191615 )
 texture = ExtResource( 2 )
-_sections_unfolded = [ "Visibility" ]
+_sections_unfolded = [ "Offset", "Visibility" ]
 
 [node name="sculpture_four_parts_of_earth" type="Sprite" parent="." index="1"]
 
@@ -149,10 +149,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 430.0
-margin_top = 580.0
-margin_right = 562.0
-margin_bottom = 600.0
+margin_left = 437.0
+margin_top = 264.0
+margin_right = 569.0
+margin_bottom = 284.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2

@@ -49,6 +49,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundLoad.cs" />
     <Compile Include="Paintings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sculptures.cs" />
