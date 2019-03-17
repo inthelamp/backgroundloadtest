@@ -1,6 +1,11 @@
 # backgroundloadtest
 Test Background Thread Loading Demo with C# API<br />
 <br />
+For Godot v3.1, it was tested on Windows 10 as well as Ubuntu 18.4.02.<br />
+No problem is found so far, working good. 
+<br />
+<br />
+
 Godot version: 3.0.6<br />
 Mono JIT compiler version: 5.12.0.301<br />
 <br />
