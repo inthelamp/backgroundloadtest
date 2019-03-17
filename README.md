@@ -1,4 +1,4 @@
-# backgroundloadtest
+# Background thread loading test
 Test Background Thread Loading Demo with C# API<br />
 <br />
 For Godot v3.1, it was tested on Windows 10 as well as Ubuntu 18.4.02.<br />
